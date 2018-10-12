@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pomodoro Timer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <div class="title">TomatoTimer</div>
+        <div class="navbar">
+            <ul>
+                <li>Log</li><li>FAQ</li><li>Settings</li><li>Tweet about us!</li>
+            </ul> 
+        </div>
+    </header>
+    
+    <section id="timer">
+        <div class="timer-nav">
+            <ul>
+                <li class="active">Pomodoro</li><li>Short Break</li><li>Long Break</li>
+            </ul>
+        </div>
+        <div class="time">
+            25:00
+        </div>
+        <div class="buttons-container">
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+             
+        </div>
+    </section>
+
+    <section id="help">
+        <div class="help-panel">
+            <div class="panel-title">Keyboard Shortcuts</div>
+            <div class="panel-content">
+                <ul class="black">
+                    <li><span class="bold">SPACE</span>    Start or Stop the timer</li>
+                    <li><span class="bold">ALT + P</span>  Pomodoro</li>
+                    <li><span class="bold">ALT + S</span>  Short Break</li>
+                    <li><span class="bold">ALT + L</span>  Long Break</li>
+                    <li><span class="bold">ALT + R</span>  Reset Timer</li>
+                </ul>
+            </div>
+        </div>
+        <div class="help-panel">
+            <div class="panel-title">Notifications</div>
+            <div class="panel-content">
+                <p>You can change the audio tone and volume via Settings</p>
+                <p>Desktop Notifications are currently supported in Chrome, Firefox and Safari </p>
+                <div class="desktop-alerts">Enable Desktop Alerts</div>
+            </div>
+        </div>
+        <div class="help-panel">
+            <div class="panel-title">Settings</div>
+            <div class="panel-content"><p>You can set custom times, audio tone and volume via Settings.</p></div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
